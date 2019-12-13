@@ -1,1 +1,16 @@
-{}
+{
+  "theme": {
+      "slug": "sugarshack",
+      "name": "Sugar Shack Bakery TX",
+      "author": "Daniel Bisett",
+      "PHPNamespace": "WP_Rig\\WP_Rig"
+    },
+    "dev": {
+      "browserSync": {
+        "live": true,
+        "proxyURL": "sugar-shack:8888",
+        "bypassPort": "8193",
+        "https": false
+      }
+}
+}

@@ -6,7 +6,7 @@
  */
 
 namespace WP_Rig\WP_Rig;
-$hero_images	= get_field('hero_images');
+// $hero_images	= get_field('hero_images');
 
 ?>
 
