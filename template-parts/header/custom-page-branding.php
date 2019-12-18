@@ -7,7 +7,7 @@
 
 namespace WP_Rig\WP_Rig;
 
-$tagline			= get_field('tagline');
+// $tagline			= get_field('tagline');
 
 ?>
 
@@ -22,7 +22,7 @@ $tagline			= get_field('tagline');
 		<?php the_title(); ?>
 	</h1>
 	<h2 class="tagline">
-	<?php echo $tagline; ?>
+	<!-- <?php echo $tagline; ?> -->
 	</h2>
 </div>
 

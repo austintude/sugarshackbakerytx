@@ -18,7 +18,7 @@
     	text-align: justify;
 	}
 	& .ctaButton {
-		background: #FD008F;
+		background: #fbd7d7;
 		width: 100vw;
 			}
 	@media (--content-query) {

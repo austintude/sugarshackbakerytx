@@ -21,7 +21,7 @@ if ( is_home() ) {
 ?>
 	<main id="primary" class="site-main">
 		<?php
-			// get_template_part( 'template-parts/content/block1' );
+			get_template_part( 'template-parts/content/block1' );
 			// get_template_part( 'template-parts/content/block2' );
 			// get_template_part( 'template-parts/content/block3' );
 			// get_template_part( 'template-parts/content/block4' );

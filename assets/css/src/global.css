@@ -34,6 +34,7 @@
 @import "_blockLayout.css";
 @import "_archive-mods.css";
 @import "_aSide.css";
+@import "_menu.css";
 @import "_testimonials-template.css";
 @import "_home-testimonials-template.css";
 @import "_portfolio-template.css";
@@ -41,7 +42,7 @@
 @import "_custom-page-template.css";
 @import "_portfolio-child-template.css";
 @import "_ctaBlock.css";
-@import "_contact-template.css";
+@import "_contact-mods.css";
 @import "__contentmiddleblock2.css";
 @import "_supports.css";
 
@@ -143,7 +144,7 @@ input[type="submit"] {
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	background: #e6e6e6;
-	color: rgba(250, 250, 250, 0.8);
+	color: #222;
 	font-size: 0.75rem;
 	line-height: 1;
 	padding: 0.6em 1em 0.4em;
@@ -272,13 +273,13 @@ select {
 --------------------------------------------------------------*/
 .nav--toggle-small .menu-toggle {
 	display: block;
-	margin: 0.5em auto;
+	margin: 0.3em auto;
 	padding: 0.6em 1.2em 0.5em;
 	font-family: var(--highlight-font-family);
 	font-stretch: condensed;
 	font-size: 80%;
 	text-transform: uppercase;
-	border: 2px solid #fff;
+	border: 2px solid #222;
 	border-radius: 0;
 	background: transparent;
 }
@@ -415,18 +416,18 @@ select {
 	width: 100%;
 	padding: 0.5em 1em 0.5em 0;
 	text-decoration: none;
-	color: #f7f7f7;
+	color: #222;
 }
 .main-navigation ul li.current-menu-item {
 
 	& a {
-		color: #f7f7f7;
+		color: #222;
 	}
 	& a:after {
 		content: "";
 		display: block;
 		height: 4px;
-		background: linear-gradient(90deg, #F55050 0, #F18A22, #F2F21F, #00793F, #4040FC, #9E04BC);
+		background: linear-gradient(90deg,#fbd7d7,#fbd7d7,#fbd7d7,#38b6ff);
 	}
 }
 
