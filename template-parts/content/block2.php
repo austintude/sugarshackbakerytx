@@ -10,6 +10,6 @@ namespace WP_Rig\WP_Rig;
 ?>
 <section class="block2">
 	<?php
-		get_template_part( 'template-parts/content/contentMiddleBlock' );
+		get_template_part( 'template-parts/content/specialBlock' );
 	?>
 </section> <!-- end .block2 -->
