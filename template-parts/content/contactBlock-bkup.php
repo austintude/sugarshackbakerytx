@@ -7,12 +7,6 @@
 
 namespace WP_Rig\WP_Rig;
 
-
-
-?>
-<?php $footerloop = new \WP_Query( array( 'post_type' => 'footer_info', 'orderby' => 'post_id', 'order' => 'ASC' ) ); ?>
-
-<?php while( $footerloop->have_posts() ) : $footerloop->the_post();
 $contact_us_phone			= get_field('contact_us_phone');
 			$contact_us_phone_link			= get_field('contact_us_phone_link');
 			$contact_us_street			= get_field('contact_us_street');
@@ -33,7 +27,8 @@ $contact_us_phone			= get_field('contact_us_phone');
 			$instagram_link			= get_field('instagram_link');
 			$linkedin_link			= get_field('linkedin_link');
 			$google_map			= get_field('google_map');
-			?>
+
+?>
 
 <section id="contactUsBlock">
     <div class="leftBlock" vocab="http://schema.org/" typeof="LocalBusiness">
@@ -87,7 +82,7 @@ $contact_us_phone			= get_field('contact_us_phone');
 <div class="rightBlock">
     <h4> Contact Us</h4>
 <amp-iframe media="(min-width: 48em)"
-width="300" height="390" layout="responsive"
+width="300" height="350" layout="responsive"
               sandbox="allow-scripts allow-same-origin allow-popups" frameborder="0"
               src="<?php echo $contact_us_form; ?>">
     <amp-img layout="fill"
@@ -104,4 +99,3 @@ width="300" height="500" layout="responsive"
   </amp-iframe>
 </div>
 </section>
-<?php endwhile;  wp_reset_query(); ?>

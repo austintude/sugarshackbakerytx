@@ -15,6 +15,14 @@ namespace WP_Rig\WP_Rig;
 </div>
 <?php the_custom_logo(); ?>
 
+<div class="titleTagWrapper">
+	<h1 class="site-title">
+		<?php the_title(); ?>
+	</h1>
+	<h2 class="tagline">
+	<!-- <?php echo $tagline; ?> -->
+	</h2>
+</div>
 
 
 </div><!-- .site-branding -->

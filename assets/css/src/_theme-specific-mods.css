@@ -60,7 +60,7 @@
 	position: fixed;
 	background: rgba(250,250,250,0.8);
     width: 60vw;
-	padding: 1rem;
+	padding: 0 1rem;
 	z-index: 6;
 	 & amp-img {
 		position: absolute;
@@ -317,8 +317,10 @@ figcaption {
 			}
 		}
 		& amp-img {
-			height: 10rem;
 			width: 100%;
+			@media (--content-query) {
+				height: 10rem;
+			}
 		}
 	}
 
@@ -329,8 +331,11 @@ figcaption {
 		grid-gap: 1.5rem;
 
 		& amp-img {
-			height: 10rem;
+
 			width: 100%;
+			@media (--content-query) {
+				height: 10rem;
+			}
 			@media (--large-desktop-query) {
 				height: 100%;
 			}
@@ -442,6 +447,7 @@ footer .custom-logo {
 	z-index: 6;
 	& .primary-menu-container {
 		display: block;
+		margin-top: -1rem;
 	}
 }
 
